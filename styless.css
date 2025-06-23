@@ -1,0 +1,23 @@
+.nav-item .nav-link {
+    font-family: Proxima Nova, sans-serif;
+    font-size: 20px;
+    font: optional;
+    color: black;
+}
+
+
+/* .nav-item .nav-link.active {
+    background: #81BECE;
+} */
+
+.display-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font: optional;
+    color: black;
+}
+
+.logo {
+    height: 140px;
+    width: 300px;
+}
