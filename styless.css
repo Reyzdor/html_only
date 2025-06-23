@@ -1,23 +1,51 @@
-.nav-item .nav-link {
-    font-family: Proxima Nova, sans-serif;
-    font-size: 20px;
-    font: optional;
-    color: black;
-}
-
-
-/* .nav-item .nav-link.active {
+    .nav-item .nav-link {
+        display: flex;
+        gap: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font: optional;
+        color: black;
+        margin-top: auto;
+        transform: translateX(-10%);
+    }
+    /* .nav-item .nav-link.active {
     background: #81BECE;
 } */
-
-.display-3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font: optional;
-    color: black;
-}
-
-.logo {
-    height: 140px;
-    width: 300px;
-}
+    
+    @font-face {
+        font-family: 'AngelBanditDemoRegular';
+        src: url('fonts\AngelBanditDemoRegular.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    .display-3 {
+        font-family: 'AngelBanditDemoRegular';
+        src: url('fonts\AngelBanditDemoRegular.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    .logo {
+        height: 115px;
+        width: 260px;
+        margin-top: -19.5%;
+        position: absolute;
+        left: 300px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav-item {
+        margin-top: 25px;
+        margin-right: 30px;
+    }
