@@ -13,13 +13,33 @@
 
     .logo {
         filter: 
-        saturate(3)          
-        brightness(0.95)     
-        contrast(1.5)        
-        hue-rotate(-5deg)
-        drop-shadow(0 0 2px rgb(0, 0, 0)); 
-        margin-top: -8px;
-        margin-left: 1.5%;
-        height: 75px;
-        width: 74px;
+            saturate(3)          
+            brightness(0.95)     
+            contrast(1.5)        
+            hue-rotate(-5deg)
+            drop-shadow(0 0 2px rgb(0, 0, 0)); 
+        margin-top: -30px;
+        margin-left: 2%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .main_list {
+        text-align: center;
+    }
+
+    .list_item {
+        top: 100px;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .main_list {
+        list-style: none; /* Убирает точки/цифры */
+        padding-left: 0;  /* Убирает отступ слева */
+        margin: 0;        /* Убирает внешние отступы */
+    }
+
+    .a:hover {
+        text-decoration: none;
     }
