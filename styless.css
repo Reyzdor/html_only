@@ -20,8 +20,8 @@
             drop-shadow(0 0 2px rgb(0, 0, 0)); 
         margin-top: -30px;
         margin-left: 2%;
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
 
     .main_list {
@@ -35,11 +35,31 @@
     }
 
     .main_list {
-        list-style: none; /* Убирает точки/цифры */
-        padding-left: 0;  /* Убирает отступ слева */
-        margin: 0;        /* Убирает внешние отступы */
+        list-style: none; 
+        padding-left: 0;  
+        margin: 0;        
     }
 
     .a:hover {
         text-decoration: none;
     }
+
+        .main_list {
+        list-style: none; /* Убираем маркеры списка */
+        padding: 0; /* Убираем отступы у списка */
+        margin: 0; /* Убираем внешние отступы у списка */
+        display: flex; /* Делаем список flex-контейнером */
+        gap: 20px; /* Добавляем промежуток между элементами */
+    }
+    
+    .list_item {
+        /* Элементы списка уже будут в ряд благодаря display: flex у родителя */
+    }
+    
+    .list_item a {
+        text-decoration: none; /* Убираем подчеркивание у ссылок */
+        color: inherit; /* Наследуем цвет текста */
+    }
+
+    
+    
